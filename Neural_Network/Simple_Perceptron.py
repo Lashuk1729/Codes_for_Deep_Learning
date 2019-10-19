@@ -1,7 +1,6 @@
 import pandas as pd
 
-
-def perceptron_AND(test_input, weights, bais, correct_outputs):
+def perceptron_AND(test_inputs, weights, bais, correct_outputs):
 
     outputs = []
     # Generate and check output
@@ -25,7 +24,7 @@ def perceptron_AND(test_input, weights, bais, correct_outputs):
     return output
 
 
-def perceptron_OR(test_input, weights, bais, correct_outputs):
+def perceptron_OR(test_inputs, weights, bais, correct_outputs):
 
     outputs = []
     # Generate and check output
@@ -49,7 +48,7 @@ def perceptron_OR(test_input, weights, bais, correct_outputs):
     return output
 
 
-def perceptron_NOT(test_input, weights, bais, correct_outputs):
+def perceptron_NOT(test_inputs, weights, bais, correct_outputs):
 
     outputs = []
     # Generate and check output
